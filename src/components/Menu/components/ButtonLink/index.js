@@ -6,7 +6,7 @@ import React from 'react';
 function ButtonLink(props) {
     //props => { className: "o que alguém passar", href: "/"}
  
-    //parei no 1:03 da aula (uma hora) e
+    //parei no 1:03 da aula (uma hora) e já instalei os components necessários
     
     return (
         <a href={props.href} className={props.className}>

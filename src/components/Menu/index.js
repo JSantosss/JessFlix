@@ -5,8 +5,8 @@ import Logo from '../../assets/img/Logo.png';
 //import do CSS do Menu
 import './Menu.css';
 //import do botão
-import ButtonLink from './components/ButtonLink';
-
+//import ButtonLink from './components/ButtonLink';
+import Button from '../Button';
 //component do Menu, sempre usar letra maiúscula
 //no nome
 function Menu() {
@@ -16,9 +16,9 @@ function Menu() {
               <img className="Logo" src={Logo} alt="JeFlix Logo"/>
             </a>
 
-            <ButtonLink className="ButtonLink" href="/">
+            <Button as="a" className="ButtonLink" href="/">
                 Novo vídeo
-            </ButtonLink>
+            </Button>
 
 
         </nav>
